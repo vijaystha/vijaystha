@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean d-->
+<bean class="com.walmart.product.Products" id="prod">
+<constructor-arg index="0" type="int">
+<value>1001</value>
+</constructor-arg>
+
+<constructor-arg index="1" type="String">
+<value>Mac</value>
+</constructor-arg>
+
+<constructor-arg index="2" type="double">
+<value>10</value>
+</constructor-arg>
+
+<constructor-arg index="3" type="double">
+<value>1200</value>
+</constructor-arg>
+</bean>
+</beans>
